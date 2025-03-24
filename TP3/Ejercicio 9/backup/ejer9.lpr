@@ -8,6 +8,7 @@ var
 begin
      assign(arch,'datos.txt');
      reset(arch);
+     Seek(arch, 5);
      //Suponemos que los datos vienen por linea
      readln(arch,ant);
      cond:=true;
