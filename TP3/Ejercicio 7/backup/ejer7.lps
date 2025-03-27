@@ -6,12 +6,12 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="ejer9.lpr"/>
+        <Filename Value="ejer7.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="18" Y="10"/>
+        <CursorPos X="12" Y="42"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
