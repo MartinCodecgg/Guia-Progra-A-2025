@@ -12,7 +12,7 @@ begin
      writeln('Ingrese un movimiento (D,R,F)');
      readln(mov);
      mov:=upcase(mov);
-     sueldo:=sueldoInicial;                //Preguntar si no conviene inicializar mov con algun valor cualquiera para simplificar el codigo
+     sueldo:=sueldoInicial;
      contFallidos:=0;
 
      while (mov <> 'F') do

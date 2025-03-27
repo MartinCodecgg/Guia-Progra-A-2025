@@ -16,7 +16,7 @@ begin
      n:=0;                  //Recordar inicializar variables ni bien las creo
      cantAprobados:=0;
 
-     while (nombre <> '***') do     //Preguntar eficiencia de este codigo, quizas es mejor poner todo dentro del while e inicializar nombre
+     while (nombre <> '***') do
            begin
                 n:=n+1;
                 prom:=(nota1+nota2+nota3)/3;

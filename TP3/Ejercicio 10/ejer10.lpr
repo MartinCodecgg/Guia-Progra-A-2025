@@ -8,7 +8,7 @@ begin
      assign(arch,'datos.txt');
      reset(arch);
      readln(arch,pri);
-     frec:=1;
+     frec:=1;                  //En este caso nos conviene separar parte de la logica fuera del while
 
      while not eof(arch) do
            begin

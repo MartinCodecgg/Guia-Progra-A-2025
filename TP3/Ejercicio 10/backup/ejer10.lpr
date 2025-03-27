@@ -4,7 +4,6 @@ var
   frec,pri,seg:byte;
   arch:text;
 
-
 begin
      assign(arch,'datos.txt');
      reset(arch);
@@ -27,7 +26,7 @@ begin
      writeln('numero: ',pri,' Frecuencia :',frec);
      readln;
 
-     //Se presetan problemas para leer el ultimo numero, lo ideal es entender que al leer el ultimo numero saldra del while
+     //Se presetan problemas para leer el ultimo numero, lo ideal es entender que al leer el ultimo numero, da falso el while
      //Entonces para este caso deberemos mostrar el ultimo numero fuera del while, seria lo mejor
 end.
 

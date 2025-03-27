@@ -6,11 +6,13 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="ejer10.lpr"/>
+        <Filename Value="ejer11.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ejer11_b"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="102" Y="11"/>
+        <TopLine Value="13"/>
+        <CursorPos X="150" Y="20"/>
         <UsageCount Value="20"/>
       </Unit>
     </Units>
