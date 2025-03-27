@@ -13,7 +13,7 @@ begin
      readln(mov);
      mov:=upcase(mov);
      sueldo:=sueldoInicial;                //Preguntar si no conviene inicializar mov con algun valor cualquiera para simplificar el codigo
-     contFallidos:=0;
+     contFallidos:=0;         //Probablemente se puede optimizar aun mas el codigo en estos casos de ingreso de datos usando Repear y no While
 
      while (mov <> 'F') do
            begin
@@ -33,7 +33,7 @@ begin
                             begin contFallidos:=contFallidos + 1; writeln('Fondos insuficientes'); end;
                    end;
 
-                   writeln('Ingrese un movimiento (D,R,F)');  //Considerar nunca evaluar dentro del if la condicion que ya evalua el while
+                   writeln('Ingrese un movimiento (D,R,F)');  //Considerar nunca evaluar dentro de un if la condicion que ya evalua el while
                    readln(mov);
                    mov:=upcase(mov);
 

@@ -12,8 +12,8 @@ begin
      writeln('Ingrese un movimiento (D,R,F)');
      readln(mov);
      mov:=upcase(mov);
-     sueldo:=sueldoInicial;
-     contFallidos:=0;
+     sueldo:=sueldoInicial;                //Preguntar si no conviene inicializar mov con algun valor cualquiera para simplificar el codigo
+     contFallidos:=0;         //Probablemente se puede optimizar aun mas el codigo en estos casos de ingreso de datos usando Repear y no While
 
      while (mov <> 'F') do
            begin
