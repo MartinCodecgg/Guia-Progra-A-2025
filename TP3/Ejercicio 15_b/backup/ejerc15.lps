@@ -8,10 +8,11 @@
       <Unit>
         <Filename Value="ejerc15.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="18"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="15"/>
         <CursorPos X="49" Y="22"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unit1.pas"/>
@@ -19,7 +20,6 @@
         <ComponentName Value="Form1"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="20"/>
       </Unit>

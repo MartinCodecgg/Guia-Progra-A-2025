@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejerc21.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="8"/>
+        <CursorPos X="5" Y="68"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="34" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="42" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="43" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="46" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="26" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="28" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="31" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="34" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="42" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="46" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="26" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="28" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="31" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="34" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="42" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="46" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="26" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="28" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="31" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="26" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="54" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="45" Column="74" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="23" Column="21" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="16" Column="21" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="46" Column="68" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="14" Column="49"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="25" Column="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="16" Column="19" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="23" Column="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc21.lpr"/>
+        <Caret Line="25" Column="6" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
