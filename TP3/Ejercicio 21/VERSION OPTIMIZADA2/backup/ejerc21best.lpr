@@ -19,10 +19,7 @@ begin
            begin
                 if n = 0 then
                    begin
-                        if cierre1 then  //De esta forma si toca dos veces seguidas 0 se hace true el condCierre
-                           condCierre:=true
-                        else
-                            cierre1:=true;
+                        condCierre:=cierre1;
 
                         if maximo <> 0 then
                            begin

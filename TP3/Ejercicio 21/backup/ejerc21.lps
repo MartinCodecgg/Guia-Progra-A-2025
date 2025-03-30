@@ -9,134 +9,13 @@
         <Filename Value="ejerc21.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="8"/>
-        <CursorPos X="5" Y="68"/>
+        <TopLine Value="27"/>
+        <CursorPos X="64" Y="35"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="34" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="42" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="43" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="46" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="26" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="28" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="31" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="34" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="42" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="46" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="26" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="28" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="31" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="34" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="42" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="46" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="26" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="28" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="31" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="26" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="54" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="45" Column="74" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="23" Column="21" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="16" Column="21" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="46" Column="68" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="14" Column="49"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="25" Column="22" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="16" Column="19" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="23" Column="22" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc21.lpr"/>
-        <Caret Line="25" Column="6" TopLine="13"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

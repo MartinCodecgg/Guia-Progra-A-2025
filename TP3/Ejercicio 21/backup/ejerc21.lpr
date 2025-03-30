@@ -30,11 +30,8 @@ begin
            begin
                 read(arch,seg);
 
-                if (seg<>0) or (pri<>0) then
-                   begin
-
                         if pri=0 then
-                        pri:=1;
+                           pri:=1;
 
                         if seg = 0 then
                            begin
@@ -60,26 +57,8 @@ begin
                                 pri:=seg;
                                 seg:=1;
                            end;
-                   end;
 
            end;
      writeln('El conjunto con mas numeros fue el: ',ordenSubMasNumeroso,' con un total de ',masNumeroso);
-     writeln('fin');
      readln;
 end.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -63,6 +63,5 @@ begin
 
            end;
      writeln('El conjunto con mas numeros fue el: ',ordenSubMasNumeroso,' con un total de ',masNumeroso);
-     writeln('fin');
      readln;
 end.

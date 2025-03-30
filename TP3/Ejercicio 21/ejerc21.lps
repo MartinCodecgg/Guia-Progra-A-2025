@@ -9,10 +9,10 @@
         <Filename Value="ejerc21.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="44"/>
-        <CursorPos X="5" Y="68"/>
+        <TopLine Value="28"/>
+        <CursorPos X="23" Y="34"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
