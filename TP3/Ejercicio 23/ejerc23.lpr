@@ -31,11 +31,10 @@ begin
                    begin
                         contCaract:=contCaract + 1;
                         contrasenia:=contrasenia + car;
-                        condContinuar:=true;
 
                         if condEspeciales then
                         if car in ['a'..'z'] then
-                           condminus:=true
+                           condMinus:=true
                         else if car in ['A'..'Z'] then
                            condMayus:=true
                         else if (car in ['0'..'9']) then

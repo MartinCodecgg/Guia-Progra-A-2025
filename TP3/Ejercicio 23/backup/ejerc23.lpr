@@ -31,7 +31,6 @@ begin
                    begin
                         contCaract:=contCaract + 1;
                         contrasenia:=contrasenia + car;
-                        condContinuar:=true;
 
                         if condEspeciales then
                         if car in ['a'..'z'] then
@@ -47,7 +46,7 @@ begin
                                condContinuar:=true;
 
                    end
-                else if condContinuar then
+                else if condContinuar then          //[Preguntar] como podria hacerlo con ciclos anidados realmente, sin usar los booleans
                     begin
                          condContinuar:=false;
                          contContrasenias:=contContrasenias + 1;
