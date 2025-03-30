@@ -27,6 +27,13 @@ begin
            begin
                 read(archE,car);
 
+                if car = ' ' then
+                begin
+                     while car = ' ' do
+                         read(archE,car);
+                     car:=' ';
+                end;
+
                 if (car <> ' ') and not eof(archE) then
                    begin
                         contCaract:=contCaract + 1;
@@ -34,7 +41,7 @@ begin
 
                         if condEspeciales then
                         if car in ['a'..'z'] then
-                           condminus:=true
+                           condMinus:=true
                         else if car in ['A'..'Z'] then
                            condMayus:=true
                         else if (car in ['0'..'9']) then
