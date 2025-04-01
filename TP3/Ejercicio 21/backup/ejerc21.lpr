@@ -23,13 +23,14 @@ begin
      masNumeroso:=0;
      ordenConjunto:=0;
      cont:=0;
-     seg:=1;
-     pri:=seg;
+     //pri:=1;
+     //seg:=1;
 
-     while (pri<>0) or (seg<>0) do
-           begin
-                read(arch,seg);
+     read(arch,seg,pri);
 
+     repeat
+           if (seg<>0) or (pri<>0) then
+                   begin
                         if pri=0 then
                            pri:=1;
 
@@ -57,8 +58,9 @@ begin
                                 pri:=seg;
                                 seg:=1;
                            end;
-
-           end;
+                   end;
+           read(arch,seg);
+           until (pri = 0) and (seg = 0);
      writeln('El conjunto con mas numeros fue el: ',ordenSubMasNumeroso,' con un total de ',masNumeroso);
      readln;
 end.

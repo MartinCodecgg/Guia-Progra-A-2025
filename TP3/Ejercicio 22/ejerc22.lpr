@@ -4,7 +4,6 @@ a) Mostrar la palabra con más cantidad de vocales del texto.
 b) Grabar en un texto de salida las palabras con más de cuatro letras pero escritas al revés.
 c) Contar cuántas son palíndromas (capicúas).}
 
-
 program ejerc22;
 
 var
@@ -68,4 +67,3 @@ begin
          close(archE);close(archS);
          readln;
 end.
-

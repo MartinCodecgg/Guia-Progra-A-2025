@@ -29,10 +29,10 @@ begin
      reset(arch);
      cantMaxOferta:=0;
      cantCliSoloOferta:=0;
-     nombre:='';      //La mejor forma de inicializar un string o char es con el espacio vacio, semanticamente indica que solo se inicializo
+     nombre:='';                           //La mejor forma de inicializar un string o char es con el espacio vacio, semanticamente indica que solo se inicializo
 
      while nombre <> '***' do
-     begin
+        begin
            readln(arch,nombre);
            readln(arch,cant);
 
@@ -73,10 +73,11 @@ begin
 
            if nombre <>'***' then //Considerar siempre en el ciclo while, si hay que limitar la salida de datos a solo si no se cumple la condicon de corte
            writeln('El monto total es: ',monto:8:2,' El total del descuento es ',desc:8:2,' El precio final es ',precio:8:2);
-     end;
 
-             writeln('El cliente que compro la mayor cantidad de articulos en oferta es ',nombreMax);
-             writeln('La cantidad de clientes que compraron articulos solo en oferta fue: ',cantCliSoloOferta);
+        end;
+
+     writeln('El cliente que compro la mayor cantidad de articulos en oferta es ',nombreMax);
+     writeln('La cantidad de clientes que compraron articulos solo en oferta fue: ',cantCliSoloOferta);
      close(arch);  //Recordar siempre que hago un ejercicio de archivos, va el close(arch);
      readln;
 end.

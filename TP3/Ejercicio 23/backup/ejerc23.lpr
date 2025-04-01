@@ -27,13 +27,6 @@ begin
            begin
                 read(archE,car);
 
-                if car = ' ' then
-                begin
-                     while car = ' ' do
-                         read(archE,car);
-                     car:=' ';
-                end;
-
                 if (car <> ' ') and not eof(archE) then
                    begin
                         contCaract:=contCaract + 1;

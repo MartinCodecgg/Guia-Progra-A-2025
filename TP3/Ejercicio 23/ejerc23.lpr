@@ -21,7 +21,7 @@ begin
      contContrasenias:=0;
      nroInvalidaMasLarga:=0;
      contrasenia:='';
-     car:=#0;
+     //car:=#0;
 
      while not eof(archE) do
            begin

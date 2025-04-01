@@ -9,9 +9,10 @@
         <Filename Value="ejerc23.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="54" Y="46"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="75"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>

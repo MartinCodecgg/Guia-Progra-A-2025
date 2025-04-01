@@ -9,134 +9,13 @@
         <Filename Value="ejerc22.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="29"/>
-        <CursorPos X="70" Y="38"/>
+        <TopLine Value="45"/>
+        <CursorPos Y="65"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="37" TopLine="17"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="39" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="40" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="29" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="31" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="32" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="34" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="36" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="37" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="39" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="29" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="31" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="32" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="34" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="36" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="37" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="39" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="29" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="31" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="32" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="34" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="36" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="37" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="39" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="29" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="31" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="32" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="34" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="36" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc22.lpr"/>
-        <Caret Line="32" Column="41" TopLine="20"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

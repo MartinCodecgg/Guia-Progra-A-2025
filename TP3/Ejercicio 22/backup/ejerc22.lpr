@@ -39,12 +39,9 @@ begin
                         if not cond then
                            cond:=true;
                    end
-
-
-                else if cond then
+                else if cond then    //cond se asegura que no muestre los datos dos veces cuando aparezcan dos espacios seguidos
                     begin
                          cond:=false;
-
                          if contVocales > nropalabraMasVocales then
                             begin
                                  nropalabraMasVocales:=contVocales;

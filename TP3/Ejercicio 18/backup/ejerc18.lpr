@@ -29,10 +29,10 @@ begin
      reset(arch);
      cantMaxOferta:=0;
      cantCliSoloOferta:=0;
-     nombre:='';      //La mejor forma de inicializar un string o char es con el espacio vacio, semanticamente indica que solo se inicializo
-
+     nombre:='';                           //La mejor forma de inicializar un string o char es con el espacio vacio, semanticamente indica que solo se inicializo
+                      //De todas formas no es correcto inicializar variables de esta forma solo para que el WHILE no valide con un valor basura
      while nombre <> '***' do
-     begin
+        begin                      //Es mejor usar el repeat en estos casos, leer ni bien empieza el repeat
            readln(arch,nombre);
            readln(arch,cant);
 
@@ -73,11 +73,12 @@ begin
 
            if nombre <>'***' then //Considerar siempre en el ciclo while, si hay que limitar la salida de datos a solo si no se cumple la condicon de corte
            writeln('El monto total es: ',monto:8:2,' El total del descuento es ',desc:8:2,' El precio final es ',precio:8:2);
-     end;
 
-             writeln('El cliente que compro la mayor cantidad de articulos en oferta es ',nombreMax);
-             writeln('La cantidad de clientes que compraron articulos solo en oferta fue: ',cantCliSoloOferta);
-     close(arch);
+        end;
+
+     writeln('El cliente que compro la mayor cantidad de articulos en oferta es ',nombreMax);
+     writeln('La cantidad de clientes que compraron articulos solo en oferta fue: ',cantCliSoloOferta);
+     close(arch);  //Recordar siempre que hago un ejercicio de archivos, va el close(arch);
      readln;
 end.
 
