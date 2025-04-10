@@ -7,7 +7,7 @@ type
 const
      A:TV = (-2,0,-1,1,1,0,1,1,0);
 
-function buscar(vec:TV; n,x:byte):byte; //Busqueda normal en este caso
+function buscar(vec:TV; n,x:byte):byte;
 var
    i:byte;
 begin
