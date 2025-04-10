@@ -79,17 +79,13 @@ Begin
      Pri := 1;
      Ult := N;
      Medio:=(Pri + Ult) DIV 2;
-     While (Pri < Ult) and (x <> V[ Medio ]) do
+     While (Pri <Ult) and (x <> V[ Medio ]) do
            Begin
                 If x < V[ Medio ] then
                 Ult := Medio - 1
                 Else
-                    begin
-                         Pri:= Medio + 1;
-                         Medio:=(Pri + Ult) DIV 2;
-                    end;
-
-                Medio:=(Pri + Ult) DIV 2;
+                    Pri:= Medio + 1;
+                    Medio:=(Pri + Ult) DIV 2;
            End;
 
            If x = V[medio] then
