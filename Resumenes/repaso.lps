@@ -9,11 +9,11 @@
         <Filename Value="repaso.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="81"/>
-        <CursorPos X="49" Y="86"/>
-        <FoldState Value=" T3F0C212 PYjY0B"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="34" Y="93"/>
+        <FoldState Value=" T3F0C221 PRjV0="/>
+        <UsageCount Value="38"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="-1"/>

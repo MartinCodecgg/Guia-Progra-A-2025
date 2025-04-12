@@ -46,7 +46,6 @@ begin
                 else
                     begin
                          pri:=medio + 1;
-                         medio:=(ult+pri) div 2;
                     end;
                 medio:= (ult+pri) div 2;
            end;
@@ -56,7 +55,7 @@ end;
 var
    vec:TVnombre;
    vecL1,vecL2:TVlanzamiento;
-   n,pos:byte;
+   n,pos,i:byte;
    nombre:string;
 begin
      leer(vec,vecL1,vecL2,n);
@@ -64,7 +63,10 @@ begin
      //Inciso C
      writeln('Ingrese un nombre'); //Recordar que el archivo debe venir ordenado para que el programa este funcione
      readln(nombre);
-     pos:= buscar(vec,n,nombre);
+     pos:= buscar(vec,n,nombre); //Suponemos que el atleta existe
+     writeln('pos es ',pos);
+     for i:=1 to n do
+         write(vec[i],' ');
      writeln('El atleta ',vec[pos],' 1er lanzamiento :',vecL1[pos],' ; segundo lanzamiento: ',vecL2[pos]);
      readln;
 end.

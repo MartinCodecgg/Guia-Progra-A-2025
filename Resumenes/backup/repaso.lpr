@@ -53,7 +53,7 @@ Var
  i: byte;
 Begin
      i:=1;
-     While (i< N) and (x > V[ i ]) do
+     While (i < N) and (x > V[ i ]) do
            i:= i+1;
      If V[ i ] = x then
         BuscaOrd := i
@@ -79,13 +79,14 @@ Begin
      Pri := 1;
      Ult := N;
      Medio:=(Pri + Ult) DIV 2;
-     While (Pri <Ult) and (x <> V[ Medio ]) do
+     While (Pri < Ult) and (x <> V[ Medio ]) do
            Begin
                 If x < V[ Medio ] then
-                Ult := Medio - 1
+                   Ult := Medio - 1
                 Else
                     Pri:= Medio + 1;
-                    Medio:=(Pri + Ult) DIV 2;
+
+                Medio:=(Pri + Ult) DIV 2;
            End;
 
            If x = V[medio] then
@@ -154,7 +155,7 @@ Var
    J: Byte;
 Begin
      J:= N;
-     While ( J>0 ) and (X < V[ J ] ) do
+     While ( J > 0 ) and (X < V[ J ] ) do
            Begin
                 V[ J+1 ] := V [ j ] ;
                 J := J-1;

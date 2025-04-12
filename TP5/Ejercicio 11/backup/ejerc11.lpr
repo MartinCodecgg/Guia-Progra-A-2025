@@ -29,11 +29,6 @@ begin
                 vecL2[n]:=L2;
            end;
 
-     for i:=1 to n do
-         begin
-              writeLN(vec[i],' ',vecL1[i],' ',vecL2[i]);
-         end;
-
 end;
 
 function buscar(vec:TVnombre; n:byte; nombre:string):byte;    //Se sabe que el nombre existe y el vector esta ordenado --> Busqueda Binaria (sabiendo q existe)
@@ -46,12 +41,11 @@ begin
 
      while (pri < ult) and (nombre <> vec[medio]) do
            begin
-                if nombre < vec[medio] then
+                if nombre > vec[medio] then
                    ult := medio - 1
                 else
                     begin
                          pri:=medio + 1;
-                         medio:=(ult+pri) div 2;
                     end;
                 medio:= (ult+pri) div 2;
            end;
@@ -61,16 +55,18 @@ end;
 var
    vec:TVnombre;
    vecL1,vecL2:TVlanzamiento;
-   n,pos:byte;
+   n,pos,i:byte;
    nombre:string;
 begin
      leer(vec,vecL1,vecL2,n);
 
      //Inciso C
-     writeln('Ingrese un nombre');
+     writeln('Ingrese un nombre'); //Recordar que el archivo debe venir ordenado para que el programa este funcione
      readln(nombre);
-     pos:= buscar(vec,n,nombre);
-     writeln('POS ES ',POS);
+     pos:= buscar(vec,n,nombre); //Suponemos que el atleta existe
+     writeln('pos es ',pos);
+     for i:=1 to n do
+         write(vec[i],' ');
      writeln('El atleta ',vec[pos],' 1er lanzamiento :',vecL1[pos],' ; segundo lanzamiento: ',vecL2[pos]);
      readln;
 end.

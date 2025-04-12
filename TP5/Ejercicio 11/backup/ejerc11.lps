@@ -9,16 +9,23 @@
         <Filename Value="ejerc11.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="37"/>
-        <CursorPos X="40" Y="45"/>
+        <TopLine Value="33"/>
+        <CursorPos X="28" Y="44"/>
         <UsageCount Value="20"/>
+        <Bookmarks Count="1">
+          <Item0 Y="39"/>
+        </Bookmarks>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="1">
       <Position>
         <Filename Value="ejerc11.lpr"/>
-        <Caret Line="31" Column="43" TopLine="20"/>
+        <Caret Line="69" Column="28" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc11.lpr"/>
+        <Caret Line="68" Column="10" TopLine="52"/>
       </Position>
     </JumpHistory>
     <RunParams>
