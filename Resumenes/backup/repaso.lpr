@@ -3,7 +3,6 @@ program repaso;
 const TOP = 100;
 type TV = array[1..TOP] of byte;
 
-
 (*Metodos para Vectores*)
 
 (*BUSQUEDA*)
@@ -173,6 +172,17 @@ sale del while e inserta el elemento x.
 V[j+1]=v[j] se usa para correr a la derecha, y por cada vez que entra j:=j-1 porque busca de derecha a izquierda
 Finalmente aumenta uno al N del vector  }
 
+Procedure Diferencias;
+begin
+     {
+
+
+
+
+
+
+     }
+end;
 
 var
    n:byte;
@@ -188,4 +198,6 @@ begin
      Elimina(v,n,pos);                    //Eliminacion
      Inserta(v,n,pos,x);                  //Insercion
      InsertaOrdenado(v,n,x);              //Insercion Ordenada
+
+     Diferencias;                         //Ignorar
 end.
