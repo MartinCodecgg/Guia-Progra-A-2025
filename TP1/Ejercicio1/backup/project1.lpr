@@ -1,8 +1,4 @@
-program project1;
-
-const
-     pinturaBlanca=4.5;
-     pinturaNegra=9.5;
+program ejerc1;
 
 var
   N,M:real;
