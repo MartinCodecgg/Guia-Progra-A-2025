@@ -118,7 +118,7 @@ Begin
      N:=N-1;                     //Se decrementa 1 a la variable que lleva la longitud del vector
 End;
 
-{Es decir corre todos los elementos hacia la izquierda, desde el ultimo elemento del vector hacia el elemento que esta en Pos}
+{Es decir corre todos los elementos hacia la izquierda, desde el elemento que esta en pos hasta N-1}
 {Para eliminar un elemento, es probable que requiera antes hacer una búsqueda, ya que necesito la posición del elemento(Pos) }
 
 

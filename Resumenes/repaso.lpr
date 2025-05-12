@@ -154,7 +154,7 @@ Var
    J: Byte;
 Begin
      J:= N;
-     While ( J > 0 ) and (X < V[ J ] ) do
+     While ( J > 0 ) and (X > V[ J ] ) do
            Begin
                 V[ J+1 ] := V [ j ] ;
                 J := J-1;

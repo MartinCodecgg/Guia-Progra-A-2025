@@ -6,13 +6,12 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="repaso.lpr"/>
+        <Filename Value="ejerc1.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="141"/>
-        <CursorPos X="30" Y="157"/>
-        <FoldState Value=" T3iU0L01111 PIjF0&apos;"/>
-        <UsageCount Value="111"/>
+        <TopLine Value="25"/>
+        <CursorPos X="148" Y="11"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
