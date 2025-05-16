@@ -65,39 +65,35 @@ Begin
 end;
 }
 
-Procedure Inserta(var Vpunt:TVregPunt; nom:stm; total,pos:byte);
+Procedure InsertaOrd(var Vpunt:TVregPunt; nom:stm; total:byte);
 var
-   i:byte;
+   j:byte;
 begin
-     for i:=3 downto pos do
+     j:=3;
+     while (j>0) and (total >= Vpunt[j].total) do
          begin
-              Vpunt[i+1].total:=Vpunt[i].total;
-              Vpunt[i+1].nom:=Vpunt[i].nom;
+              if j<3 then
+                 Vpunt[j+1]:=Vpunt[j];
+              j:=j-1;
          end;
 
-     Vpunt[pos].total:=total;
-     Vpunt[pos].nom:=nom;
+      Vpunt[j+1].total:=total;
+      Vpunt[j+1].nom:=nom;
 end;
 
 Procedure InciB(Vclub:TVregClub; n:byte);
 var
-   i,j:byte;    Vpunt:TVregpunt;
+   i:byte;    Vpunt:TVregpunt;
 begin
      for i:=1 to 3 do
          Vpunt[i].total:=0;
 
+     writeln(n);
     for i:=1 to n do
-        begin
-             j:=1;
-             while (j<3) and (Vclub[i].total <= Vpunt[j].total) do  //Si hay equipos que pueden tener el mismo puntaje entonces debo iterar por <= no <
-                          j:=j+1;
+        InsertaOrd(Vpunt,Vclub[i].nom,Vclub[i].total);
 
-             if Vclub[i].total > Vpunt[j].total then
-                Inserta(Vpunt,Vclub[i].nom,Vclub[i].total,j)
-        end;
-
-     writeln('Los punteros de la tabla son :');
-     for i:=1 to 3 do
+    writeln('Los punteros de la tabla son :');
+    for i:=1 to 3 do
          writeln(Vpunt[i].nom);
 
 end;

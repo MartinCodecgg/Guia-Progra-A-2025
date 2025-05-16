@@ -9,47 +9,14 @@
         <Filename Value="ejerc4.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="91"/>
-        <CursorPos X="48" Y="92"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="62" Y="90"/>
         <FoldState Value=" TC6E3 T3D0M1Y"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="22"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="7">
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="68" Column="68" TopLine="63"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="70" Column="11" TopLine="59"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="84" Column="7" TopLine="78"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="85" Column="6" TopLine="75"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="94" Column="37" TopLine="81"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="92" Column="63" TopLine="81"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="103" Column="47" TopLine="85"/>
-      </Position>
-      <Position>
-        <Filename Value="ejerc4.lpr"/>
-        <Caret Line="66" Column="2" TopLine="32"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

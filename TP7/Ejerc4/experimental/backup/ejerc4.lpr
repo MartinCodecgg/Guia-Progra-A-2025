@@ -65,7 +65,7 @@ Begin
 end;
 }
 
-Procedure InsertaOrd(var Vpunt:TVregPunt; nom:stm; total,pos:byte);
+Procedure Inserta(var Vpunt:TVregPunt; nom:stm; total,pos:byte);
 var
    i:byte;
 begin
@@ -92,8 +92,8 @@ begin
              while (j<3) and (Vclub[i].total < Vpunt[j].total) do  //Si hay equipos que pueden tener el mismo puntaje entonces debo iterar por <= no <
                           j:=j+1;
 
-             if Vclub[i].total > Vpunt[j].total then
-                InsertaOrd(Vpunt,Vclub[i].nom,Vclub[i].total,j)
+             if (Vclub[i].total >= Vpunt[j].total) then
+                Inserta(Vpunt,Vclub[i].nom,Vclub[i].total,j)
         end;
 
      writeln('Los punteros de la tabla son :');
