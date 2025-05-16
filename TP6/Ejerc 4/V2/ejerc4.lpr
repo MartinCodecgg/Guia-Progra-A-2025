@@ -45,24 +45,22 @@ end;
 
 Function Validar(mt:TMT; n:byte):boolean;      //Cuando recorro el triangulo inferior de la matriz o debajo de la diagonal principal no necesito el m
 var                                                  //IMPORTANTE !!, ya que recorro las columnas hasta que j=i-1
-   i,j:byte;
+   i,j:byte; cond:boolean;
 begin
+     cond:=true;
      i:=2;
-     while (i<=n) do     //Para el while de este caso el i debe incluir al N para recorrer toda la matriz
+     while (i<=n) and cond do     //Para el while de este caso el i debe incluir al N para recorrer toda la matriz
            begin
                 j:=1;
-                while (j<i-1) and (mt[i,j] = 0) do
+                while (j<i) and (mt[i,j] = 0) do
                            j:=j+1;
-                if mt[i,j] = 0 then
+                if j=i then
                    i:=i+1
                 else
-                    i:=n+2;  //Si no llega a ser cero le doy un valor muy falso para que salga de ambos while
+                    cond:=false;  //Si no llega a ser cero le doy un valor muy falso para que salga de ambos while
            end;
 
-     if (i<>n+2) and (mt[i,j] = 0) then  //Valido que no sea el valor falso
-        Validar:=true
-     else
-         Validar:=false;
+     Validar:= cond;
 
 end;
 

@@ -61,7 +61,7 @@ begin
 
      if (i<>n+2) and (mt[i,j] = 0) then  //Valido que no sea el valor falso
         Validar:=true
-     else
+     else                                         //HACER ASIGNACION DIRECTA, VISTA EN TEORIA
          Validar:=false;
 
 end;
