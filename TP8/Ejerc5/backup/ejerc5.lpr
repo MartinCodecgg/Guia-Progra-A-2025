@@ -28,7 +28,7 @@ begin
         MostrarInv(V,n-1);
 end;
 
-Function HallarMax(V:TV; n:byte):shortint;
+Function HallarMax(V:TV; max:shortint; n:byte):shortint;
 var
    aux:shortint;
 begin
@@ -36,12 +36,13 @@ begin
         HallarMax:=V[n]
      else
         begin
-             aux:=HallarMax(V,n-1);
+             aux:=HallarMax(V,max,n-1);
              if aux > V[n] then
-                HallarMax:=aux
+                max:=aux
              else
-                 HallarMax:=V[n];
+                 max:=V[n];
         end;
+     HallarMax:=max;
 end;
 
 Function Promedio(V:TV; n,top:byte):real;
