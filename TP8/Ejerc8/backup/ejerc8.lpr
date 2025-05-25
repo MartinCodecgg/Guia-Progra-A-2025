@@ -35,8 +35,6 @@ var
 begin
      n:=3; m:=4;
      ArmarVec(mt,V,n,m,m);
-
-
      //Adicional, Muestro el vector generado
      for i:=1 to n do
          Write(V[i]:4);
