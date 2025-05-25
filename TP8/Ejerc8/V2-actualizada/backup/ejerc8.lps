@@ -9,13 +9,13 @@
         <Filename Value="ejerc8.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="24"/>
-        <CursorPos X="35" Y="21"/>
+        <TopLine Value="9"/>
+        <CursorPos X="26" Y="21"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="2">
+    <JumpHistory HistoryIndex="3">
       <Position>
         <Filename Value="ejerc8.lpr"/>
         <Caret Line="24" Column="22" TopLine="7"/>
@@ -27,6 +27,10 @@
       <Position>
         <Filename Value="ejerc8.lpr"/>
         <Caret Line="20" Column="50" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerc8.lpr"/>
+        <Caret Line="34" Column="16" TopLine="12"/>
       </Position>
     </JumpHistory>
     <RunParams>

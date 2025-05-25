@@ -7,7 +7,7 @@ type
     TMT = array[1..TOPN,1..TOPM] of byte;
     TV = array[1..TOPN] of byte;
 
-Procedure MaxFila(mt:TMT; i,j,m,max:byte; Var V:TV; Var nv:byte);
+Procedure MaxFila(mt:TMT; i,j,m,max:byte; Var V:TV);
 begin
      if i>0 then
         begin
@@ -15,12 +15,11 @@ begin
                 max:=mt[i,j];
 
              if j>1 then
-                MaxFila(mt,i,j-1,m,max,V,nv)
+                MaxFila(mt,i,j-1,m,max,V)
              else
                  begin
-                      nv:=nv+1;
-                      V[nv]:=max;
-                      MaxFila(mt,i-1,m,m,0,V,nv);
+                      V[i]:=max;
+                      MaxFila(mt,i-1,m,m,0,V);
                  end;
         end;
 end;
@@ -31,11 +30,10 @@ const
               (1,2,3,55));
 
 var
-    V:TV; i,n,m,nv:byte;
+    V:TV; i,n,m:byte;
 begin
      n:=3; m:=4;
-     nv:=0;
-     MaxFila(mt,n,m,m,0,V,nv);
+     MaxFila(mt,n,m,m,0,V);
 
      //Adicional, Muestro el vector generado
      for i:=1 to n do
