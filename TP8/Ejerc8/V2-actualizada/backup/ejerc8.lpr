@@ -33,7 +33,6 @@ var
     V:TV; i,n,m:byte;
 begin
      n:=3; m:=4;
-     nv:=0;
      MaxFila(mt,n,m,m,0,V);
 
      //Adicional, Muestro el vector generado
